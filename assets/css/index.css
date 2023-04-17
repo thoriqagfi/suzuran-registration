@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+}
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  min-width: fit-content;
+}
+h1 {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 70px;
+}
+h2 {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: medium;
+  /* line-height: 28px; */
+  color: #217BF4;
+}
+h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #656464;
+}
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #656464;
+}
+nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  font-weight: bolder;
+  background-color: #FAFAFA;
+  display: relative;
+  z-index: 1;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  opacity: 0.6;
+}
+image {
+  background: none;
+}
+
+.btn-blue {
+  background-color: #217BF4;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-weight: bold;
+  box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn-blue:hover {
+  background-color: #1A5FCC;
+  transform: translateY(-3px);
+  box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+}
+.btn-blue:active {
+  transform: translateY(0px);
+  box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+}
+
+#logo {
+  height: 30px;
+}
+.logo {
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
+  font-size:x-large;
+  display: flex;
+  align-items: center;
+}
+.logo-point {
+  color: #FF0000;
+  font-size: 30px;
+}
+.nav-link {
+  display: flex;
+  column-gap: 70px;
+  align-items: center;
+}
+
+#news {
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.btn-opacity {
+  color: #217BF4;
+  /* opacity: 0.1; */
+  background-color: #217cf428;
+  font-size: 12px;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 8px;
+}
+.btn-transparent {
+  background-color: transparent;
+  color: #217BF4;
+  border: 1px solid #217BF4;
+  padding: 15px 40px;
+  font-weight: bold;
+  box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+  border-radius: 8px;
+  cursor: pointer;
+}.btn-transparent:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+}
+.btn-transparent:active {
+  transform: translateY(0px);
+  box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+}
+.def-image {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.card-col {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-col-2 {
+  justify-content: center;
+  column-gap: 100px;
+}
+.card {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: start;
+  transition: 0.5s;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: black;
+  gap: 15px;
+}
+.card-2 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-width: 400px;
+  min-height: 200px;
+  margin-top: 50px;
+}
+.application {
+  display: flex;
+  gap: 30px;
+}
+
+.total-pendaftar {
+  text-align: center;
+  font-size: 30px;
+}
